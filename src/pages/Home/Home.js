@@ -1,12 +1,11 @@
 import React from "react";
+import "./Home.css"
 
 
 
 export default function Home() {
-  return <div>Home
-    <br />
-    <br />gg
-    <br />
-    <br />rr
+  return 
+  <div>
+      <p>hollo   this is home</p>
   </div>;
 }

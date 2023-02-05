@@ -9,6 +9,7 @@ export default function Topbar() {
 
     <div className="top-left">
       <img className="logo" src="images/logo.png" alt="logo" />
+      <span>learn</span>
     </div>
 
     <div className="top-right">
