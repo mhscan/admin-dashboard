@@ -4,7 +4,10 @@
  top: 65px;
  
 }
-
+a{
+    text-decoration: none;
+    color: inherit;
+}
 .sidebarlist{
     list-style-type: none;
     color: #444;
