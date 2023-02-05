@@ -13,20 +13,33 @@ import ChatBubbleIcon from '@mui/icons-material/ChatBubble';
 import WorkOutlineIcon from '@mui/icons-material/WorkOutline';
 import ReportIcon from '@mui/icons-material/Report';
 
+import { Link } from "react-router-dom";
+
 export default function Sidebar() {
   return <div>
     <div className="Sidebarmenu">
       <h3 className="tittel">Dushboard</h3>
       <ul className="sidebarlist">
-        <li className="sidebarlistitem active"><HomeIcon /> Home</li>
+        <Link to="/">
+          <li className="sidebarlistitem active"><HomeIcon /> Home</li>
+        </Link>
+
         <li className="sidebarlistitem "><TimelineIcon /> analytics</li>
         <li className="sidebarlistitem "><TrendingUpIcon /> salse</li>
       </ul>
       <h3 className="tittel">Quick Menu</h3>
       <ul className="sidebarlist">
-        <li className="sidebarlistitem "><PermIdentityIcon /> user</li>
-        <li className="sidebarlistitem "><PermIdentityIcon /> new user</li>
-        <li className="sidebarlistitem "><StorefrontIcon />products </li>
+        <Link to="/Userlist">
+          <li className="sidebarlistitem "><PermIdentityIcon /> user</li>
+        </Link>
+        <Link to="/NewUser">
+          <li className="sidebarlistitem "><PermIdentityIcon /> new user</li>
+        </Link>
+
+        <Link to="/Product">
+          <li className="sidebarlistitem "><StorefrontIcon />products </li>
+        </Link>
+
         <li className="sidebarlistitem "><AttachMoneyIcon />transaction </li>
         <li className="sidebarlistitem "><BarChartIcon /> report </li>
       </ul>
