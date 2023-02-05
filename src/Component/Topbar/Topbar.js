@@ -23,7 +23,7 @@ export default function Topbar() {
       <div className="topbar-icon-container">
         <LanguageIcon></LanguageIcon>
       </div>
-      <img src="images/admin.jpg" alt="admin.png" />
+      <img className="top-avatar" src="images/admin.jpg" alt="admin.png" />
 
     </div>
 
