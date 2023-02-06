@@ -17,7 +17,7 @@ import { Link } from "react-router-dom";
 
 export default function Sidebar() {
   return <div>
-    <div className="Sidebarmenu">
+    <div className="sidebarmenu">
       <h3 className="tittel">Dushboard</h3>
       <ul className="sidebarlist">
         <Link to="/">

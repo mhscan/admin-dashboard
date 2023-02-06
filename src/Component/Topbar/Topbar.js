@@ -14,15 +14,15 @@ export default function Topbar() {
 
     <div className="top-right">
       <div className="topbar-icon-container">
-        <NotificationsActiveIcon></NotificationsActiveIcon>
+        <NotificationsActiveIcon/>
         <span className="topbar-icon-badge ">2</span>
       </div>
       <div className="topbar-icon-container">
-        <SettingsIcon></SettingsIcon>
+        <SettingsIcon/>
         <span className="topbar-icon-badge ">2</span>
       </div>
       <div className="topbar-icon-container">
-        <LanguageIcon></LanguageIcon>
+        <LanguageIcon/>
       </div>
       <img className="top-avatar" src="images/admin.jpg" alt="admin.png" />
 
