@@ -1,0 +1,8 @@
+.chart{
+    margin: 15px;
+    padding: 15px;
+    box-shadow: 0 0 15px -5px #111;
+}
+.chart >h3{
+    margin: 20px;
+}

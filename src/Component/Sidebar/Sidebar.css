@@ -3,8 +3,6 @@
  position: sticky;
  top: 65px;
  width: 200px;
- 
-
 }
 a{
     text-decoration: none;
@@ -28,7 +26,7 @@ a{
     color: #00f;
 }
 
-sidebaricon{
+.sidebaricon{
     margin-right: 5px;
     font-size: 20px;
 
