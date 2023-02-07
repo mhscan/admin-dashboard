@@ -18,20 +18,20 @@ export default function Home() {
     { name: "4", cost: 1200 },
     { name: "5", cost: 2500 },
     { name: "6", cost: 2800 },
-    { name: "7", cost: 257 },
+    { name: "7", cost: 1157 },
     { name: "8", cost: 1245 },
-    { name: "9", cost: 171 },
+    { name: "9", cost: 1701 },
     { name: "10", cost: 1278 },
     { name: "11", cost: 5427 },
     { name: "12", cost: 4288 },
   ];
 
   let onlineuser = [
+    { imgsrc: "images/u2.jpg", name: "ali", userid: 12548 },
     { imgsrc: "images/u1.jpg", name: "reza", userid: 12548 },
-    { imgsrc: "images/u1.jpg", name: "reza", userid: 12548 },
-    { imgsrc: "images/u1.jpg", name: "reza", userid: 12548 },
-    { imgsrc: "images/u1.jpg", name: "reza", userid: 12548 },
-    { imgsrc: "images/u1.jpg", name: "reza", userid: 12548 }
+    { imgsrc: "images/u2.jpg", name: "reza", userid: 12548 },
+    { imgsrc: "images/u1.jpg", name: "mohammad", userid: 12548 },
+    { imgsrc: "images/u3.jpg", name: "reza", userid: 12548 }
   ]
 
 
@@ -48,10 +48,23 @@ export default function Home() {
       <div >
         <h3>online user</h3>
         {onlineuser.map((user) => (
+
+          
+
+
+
+
           <Widget imgsrc={user.imgsrc} name={user.name} id={user.userid}></Widget>
         ))}
 
       </div>
+
+
+
+
+
+
+
       <div >
         <h3>new user</h3>
         {onlineuser.map((user) => (

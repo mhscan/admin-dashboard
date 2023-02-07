@@ -2,7 +2,7 @@
  height: calc(100vh - 65px);
  position: sticky;
  top: 65px;
- width: 200px;
+ width: 250px;
 }
 a{
     text-decoration: none;
@@ -21,9 +21,11 @@ a{
     padding: 4px;
     margin-left: 25px;
 }
-.sidebarlistitem.active , .sidebarlistitem:hover{
-    background-color: #ccc;
-    color: #00f;
+.sidebarlistitem:hover{
+    background-color: #bbb;
+}
+.active{
+    color: rgb(255, 34, 0);
 }
 
 .sidebaricon{
