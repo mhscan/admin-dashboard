@@ -12,18 +12,15 @@ export default function Home() {
   ];
 
   const tabledata = [
-    { name: "1", cost: 400 },
-    { name: "2", cost: 600 },
-    { name: "3", cost: 500 },
-    { name: "4", cost: 1200 },
-    { name: "5", cost: 2500 },
-    { name: "6", cost: 2800 },
-    { name: "7", cost: 1157 },
-    { name: "8", cost: 1245 },
-    { name: "9", cost: 1701 },
-    { name: "10", cost: 1278 },
-    { name: "11", cost: 5427 },
-    { name: "12", cost: 4288 },
+    { name: "0", cost: 0 },
+    { name: "5", cost: 5.51 },
+    { name: "10", cost: 7.14 },
+    { name: "15", cost: 8.54 },
+    { name: "20", cost: 9.29 },
+    { name: "25", cost: 9.70 },
+    { name: "30", cost: 9.99 },
+    { name: "35", cost: 10.16 },
+
   ];
 
   let onlineuser = [
